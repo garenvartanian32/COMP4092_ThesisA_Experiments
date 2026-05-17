@@ -1,0 +1,26 @@
+def _make_pretty_arguments(arguments):
+    """
+    Makes the arguments description pretty and returns a formatted string if `arguments`
+    starts with the argument prefix. Otherwise, returns None.
+
+    Expected input:
+
+        Arguments:
+          * arg0 - ...
+              ...
+          * arg0 - ...
+              ...
+
+    Expected output:
+    **Arguments:**
+
+    * arg0 - ...
+        ...
+    * arg0 - ...
+        ...
+
+    """
+
+    if arguments.startswith("\n    Arguments:"):
+        arguments = "\n".join(map(lambda u: u[6:], arguments.strip().split("\n")[1:]))
+        return "**Arguments:**\n\n%s\n\n" % arguments

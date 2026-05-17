@@ -1,0 +1,1 @@
+# Remove None values from the body dictionary

@@ -1,0 +1,20 @@
+def auto_complete_paths(current, completion_type):
+    directory, filename = os.path.split(current)
+    current_path = os.path.abspath(directory)
+    # Don't complete paths if they can't be accessed
+    if not os.access(current_path, os.R_OK):
+        return
+    filename = os.path.normcase(filename)
+    # list all files that start with ``filename``
+    file_list = (x for x in os.listdir(current_path)
+                 if os.path.normcase(x).startswith(filename))
+    for f in file_list:
+        opt = os.path.join(current_path, f)
+        comp_file = os.path.normcase(os.path.join(directory, f))
+        # complete regular files when there is not ``<dir>`` after option
+        # complete directories when there is ``<file>``, ``<path>`` or
+        # ``<dir>``after option
+        if completion_type != 'dir' and os.path.isfile(opt):
+            yield comp_file
+        elif os.path.isdir(opt):
+            yield os.path.join(comp_file, '')

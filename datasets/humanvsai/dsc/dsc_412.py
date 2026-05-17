@@ -1,0 +1,1 @@
+print(_fmt_res('dat', max_res=True))  # Output: 16
