@@ -1,0 +1,22 @@
+run_id,analysed_at,dataset,source_root,relative_path,file,folder,label,file_hash,mi,cc_avg,cc_max,functions,halstead_volume,halstead_difficulty,halstead_effort,loc,sloc,lloc,comments,blank
+20260511_115741,11/05/2026 11:57,Hard,Claude\Hard,flipping.py,flipping.py,Hard,Unknown,8f68c08b8bc1,100,1,1,1,4.75,0.5,2.38,2,2,2,1,0
+20260511_115741,11/05/2026 11:57,Hard,Claude\Hard,hex.py,hex.py,Hard,Unknown,182c09c6857d,100,2,2,1,0,0,0,2,2,2,0,0
+20260511_115741,11/05/2026 11:57,Hard,Claude\Hard,karaca.py,karaca.py,Hard,Unknown,401708f93f8f,87.68,6,6,1,80,2.95,236.36,18,13,11,3,2
+20260511_115741,11/05/2026 11:57,Hard,Claude\Hard,snake.py,snake.py,Hard,Unknown,532e3d31a358,84.54,3,3,1,38.04,2,76.08,10,10,10,1,0
+20260511_115756,11/05/2026 11:57,Very Hard,Claude\Very Hard,ad_list_sort.py,ad_list_sort.py,Very Hard,Unknown,79702fba8f22,74.19,5,5,1,51.89,2.86,148.26,5,4,4,0,1
+20260511_115756,11/05/2026 11:57,Very Hard,Claude\Very Hard,atbash.py,atbash.py,Very Hard,Unknown,a85caf9f0c0d,68.83,4,4,1,25.27,1.2,30.32,9,9,9,0,0
+20260511_115756,11/05/2026 11:57,Very Hard,Claude\Very Hard,palindrome_rec.py,palindrome_rec.py,Very Hard,Unknown,188cb64bed78,67.64,3,3,1,28.07,2.25,63.17,11,9,10,0,2
+20260511_115756,11/05/2026 11:57,Very Hard,Claude\Very Hard,prime_factor.py,prime_factor.py,Very Hard,Unknown,f760d9e1a2fa,63.51,4,4,1,77.71,8.17,634.63,11,11,11,0,0
+20260511_115837,11/05/2026 11:58,Expert,Claude\Expert,bst.py,bst.py,Expert,Unknown,f29df54acead,63,2.14,7,14,100.38,4.25,426.61,76,59,59,7,11
+20260511_115837,11/05/2026 11:58,Expert,Claude\Expert,hash_juggle.py,hash_juggle.py,Expert,Unknown,748053c5c019,88.56,1,1,1,4.75,0.5,2.38,3,2,2,0,1
+20260511_115837,11/05/2026 11:58,Expert,Claude\Expert,keyword_cipher.py,keyword_cipher.py,Expert,Unknown,ebfe85290329,80.44,9,9,1,38.04,2,76.08,21,16,17,2,3
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,Average MI,90.22,,,,,,,,,
+,,,,,,,,,,Average CC,5,,,,,,,,,
+,,,,,,,,,,Average LOC,11.5,,,,,,,,,
+,,,,,,,,,,Average V,21.395,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,232,,17,,143.17,,,100,,,,

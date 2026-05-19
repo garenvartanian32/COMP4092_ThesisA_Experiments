@@ -1,0 +1,21 @@
+run_id,analysed_at,dataset,source_root,relative_path,file,folder,label,file_hash,mi,cc_avg,cc_max,functions,halstead_volume,halstead_difficulty,halstead_effort,loc,sloc,lloc,comments,blank
+20260511_115628,11/05/2026 11:56,Hard,ChatGPT\Hard,flipping.py,flipping.py,Hard,AI,d29c50a4860a,79.44,1,1,1,27,1.8,48.6,3,3,3,0,0
+20260511_115628,11/05/2026 11:56,Hard,ChatGPT\Hard,hex.py,hex.py,Hard,AI,deee02b3bb47,100,2,2,1,0,0,0,7,5,5,0,2
+20260511_115628,11/05/2026 11:56,Hard,ChatGPT\Hard,karaca.py,karaca.py,Hard,AI,fa486ffeb34e,72.08,2,2,1,20.68,1.25,25.85,15,12,7,0,3
+20260511_115628,11/05/2026 11:56,Hard,ChatGPT\Hard,snake.py,snake.py,Hard,AI,364c178a3d8f,68.15,2,2,1,49.83,2.14,106.78,10,8,8,0,2
+20260511_115639,11/05/2026 11:56,Very Hard,ChatGPT\Very Hard,ad_list_sort.py,ad_list_sort.py,Very Hard,AI,6cea5177c215,68.33,5,5,1,11.61,1,11.61,16,12,12,0,4
+20260511_115639,11/05/2026 11:56,Very Hard,ChatGPT\Very Hard,atbash.py,atbash.py,Very Hard,AI,e6a781b7510e,64.1,4,4,1,85.95,1.08,92.56,12,10,10,0,2
+20260511_115639,11/05/2026 11:56,Very Hard,ChatGPT\Very Hard,palindrome_rec.py,palindrome_rec.py,Very Hard,AI,4c9d6dba97eb,63.02,3,3,2,66.61,2.67,177.62,18,12,12,0,6
+20260511_115639,11/05/2026 11:56,Very Hard,ChatGPT\Very Hard,prime_factor.py,prime_factor.py,Very Hard,AI,b9a2511fdd2f,56.46,6,6,1,155.59,6.46,1005.35,24,18,18,0,6
+20260511_115650,11/05/2026 11:56,Expert,ChatGPT\Expert,bst.py,bst.py,Expert,AI,97f4b7f8e785,47.56,2.2,5,10,105.49,3.27,345.23,57,44,44,0,13
+20260511_115650,11/05/2026 11:56,Expert,ChatGPT\Expert,hash_juggle.py,hash_juggle.py,Expert,AI,6343437bea7f,42.97,2.88,4,8,347.98,5.83,2029.91,71,48,48,0,23
+20260511_115650,11/05/2026 11:56,Expert,ChatGPT\Expert,keyword_cipher.py,keyword_cipher.py,Expert,AI,728a4940f42f,57.07,9,9,1,59.79,4,239.18,29,22,22,0,7
+20260511_115650,11/05/2026 11:56,Expert,ChatGPT\Expert,lvl_ord_trav.py,lvl_ord_trav.py,Expert,AI,ff6086fee0f6,61.73,2.67,5,3,23.26,1.5,34.9,28,19,19,0,9
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,Average MI,70.585,,,,,,,,,,,
+,,,,,,,,Average CC,4,,,,,,,,,,,
+,,,,,,,,Average Halstead(V):,25.13,,,,,,,,,,,
+,,,,,,,,Average LOC,24.16666667,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,152.26,,23,,536.52,,,185,,,,
